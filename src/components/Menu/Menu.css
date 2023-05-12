@@ -1,0 +1,81 @@
+.menu-padding {
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+}
+.app__menulist-wrapper {
+  padding: 40px 20px;
+  margin: 0 auto;
+  background: var(--color-black);
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 1;
+}
+.menuitem-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.menuitem-wrapper > div > h5 {
+  font-family: var(--font-base);
+  font-size: 26px;
+  color: var(--color-black);
+}
+
+.card-subtitle {
+  font-family: var(--font-alt);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--color-golden);
+}
+.card-text {
+  font-family: var(--font-alt);
+
+  font-size: 14px;
+  color: var(--color-black);
+}
+.menuitem-image {
+  width: 100%;
+}
+.menuitem-image img {
+  max-width: 100%;
+}
+
+.card {
+  border: 2px solid var(--color-golden);
+}
+
+.btn-container {
+  display: flex;
+  flex-wrap: wrap;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 20px 0px 10px 0px;
+  background: var(--color-black);
+  margin: 0 auto;
+  justify-content: center;
+}
+.filter-btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1rem;
+  font-family: var(--font-alt);
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: var(--color-golden);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  border-radius: 0.25rem;
+}
+.active {
+  background: var(--color-white);
+  color: var(--color-black);
+}

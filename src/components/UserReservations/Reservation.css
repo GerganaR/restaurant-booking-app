@@ -1,0 +1,71 @@
+.app__reservationlist-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  background-color: var(--color-black);
+  border-radius: 10px;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.app__reservation-heading {
+  text-align: center;
+}
+.reservation_padding {
+  padding: 100px 50px 50px 50px;
+}
+
+.app__reservationlistitem-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-white);
+  color: var(--color-black);
+  margin: 20px 10px;
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: 500;
+  font-family: var(--font-alt);
+}
+
+.app__reservationlistitem-restaurant {
+  font-size: 16px;
+  font-weight: 400;
+}
+.app__reservationlistitem-name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: var(--font-base);
+  color: var(--color-golden);
+}
+.app__reservationlistitem-contact > div,
+.app__reservationlistitem-date > div {
+  margin: 10px 0px;
+}
+.app__reservationlistitem-contact > div > span,
+.app__reservationlistitem-date > div > span {
+  color: var(--color-golden);
+  margin: 0px 10px;
+}
+
+.app__reservationlistitem-restaurant > div > span {
+  color: var(--color-golden);
+  margin-right: 5px;
+}
+
+.app__reservationlistitem-guests {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--color-golden);
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 850px) {
+  .app__reservationlist-wrapper {
+    width: 100%;
+  }
+}

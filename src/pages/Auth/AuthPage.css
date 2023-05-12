@@ -1,0 +1,39 @@
+.app__auth-wrapper {
+  min-height: 100vh;
+}
+.app__auth-switchtext {
+  margin-top: 20px;
+  text-align: center;
+  color: var(--color-white);
+}
+.app__auth-loginwrapper {
+  width: 45%;
+  padding: 30px 50px;
+  margin: 0 auto;
+  background: var(--color-black);
+}
+
+.app__auth-switchtext > p > span {
+  color: var(--color-crimson);
+}
+.app__auth-heading {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .app__auth-loginwrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .app__auth-loginwrapper {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .app__auth-loginwrapper {
+    width: 100%;
+  }
+}
